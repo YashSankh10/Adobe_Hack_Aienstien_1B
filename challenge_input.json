@@ -1,0 +1,16 @@
+{
+    "challenge_info": {
+      "challenge_id": "round_1b_evaluator_test",
+      "test_case_name": "Describe your test case here"
+    },
+    "documents": [
+      { "filename": "document1.pdf", "title": "Document 1 Title" },
+      { "filename": "document2.pdf", "title": "Document 2 Title" }
+    ],
+    "persona": {
+      "role": "e.g., PhD Researcher in Computational Biology"
+    },
+    "job_to_be_done": {
+      "task": "e.g., Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks."
+    }
+  }
