@@ -83,7 +83,6 @@ The pipeline executes in a sequence of automated steps:
 
 5.  **Summarization**: For the top 5 most relevant sections, a quantized `t5-small` model generates a concise, abstractive summary to distill the core insights for the user.
 
----
 ## Constraints and Limitations
 
 This system is built to adhere to the following constraints:
