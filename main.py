@@ -13,7 +13,7 @@ from src.utils import load_models
 
 def main(input_json_path, docs_folder_path):
     start_time = time.time()
-    logger.info("🚀 Starting Persona-Driven Document Intelligence Pipeline...")
+    logger.info("Starting Persona-Driven Document Intelligence Pipeline...")
 
     with open(input_json_path, 'r') as f:
         inputs = json.load(f)
@@ -57,7 +57,7 @@ def main(input_json_path, docs_folder_path):
     )
 
     end_time = time.time()
-    logger.info(f"✅ Pipeline finished in {end_time - start_time:.2f} seconds.")
+    logger.info(f"Pipeline finished in {end_time - start_time:.2f} seconds.")
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
